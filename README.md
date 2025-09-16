@@ -23,7 +23,7 @@ Aqui estão os projetos inclusos:
 
 | Projeto | Descrição | Localização |
 |---------|------------|-------------|
-| **Projeto 1** | *Descreva aqui o que o Projeto 1 faz.* | `projeto-1/` |
+| **Projeto 1** | *Automação com Pyautogui + Pandas* | `projeto-1/` |
 | **Projeto 2** | *Descreva aqui o que o Projeto 2 faz.* | `projeto-2/` |
 | **Projeto 3** | *Descreva aqui o que o Projeto 3 faz.* | `projeto-3/` |
 | **Projeto 4** | *Descreva aqui o que o Projeto 4 faz.* | `projeto-4/` |
