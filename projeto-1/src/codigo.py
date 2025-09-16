@@ -43,7 +43,7 @@ time.sleep(3)
 # Passo 3: Importar a base de produtos pra cadastrar
 import pandas
 
-tabela = pandas.read_csv(r"c:\Users\ZETEC\Desktop\vscode hmk\Hashtag\aula1\produtos.csv")
+tabela = pandas.read_csv("../data/produtos.csv")
 
 print(tabela)   
 # Passo 4: Cadastrar um produto
