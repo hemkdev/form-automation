@@ -14,6 +14,7 @@ Este projeto automatiza a **leitura de dados em uma tabela** (CSV/Excel) e o **p
 ```bash
 📦 seu-repositorio
  ┣ 📂 data           # Arquivos de entrada (tabelas CSV/Excel)
+ ┃ ┗ produtos.csv
  ┣ 📂 src            # Código-fonte
  ┃ ┗ main.py
  ┣ requirements.txt  # Dependências do projeto
