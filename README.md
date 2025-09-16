@@ -9,13 +9,9 @@ Repositório agrupando vários projetos em Python. Cada pasta contém um projeto
 ```
 python-powerup/
 ┣ projeto-1/
-┃ ┗ README.md
 ┣ projeto-2/
-┃ ┗ README.md
 ┣ projeto-3/
-┃ ┗ README.md
 ┣ projeto-4/
-┃ ┗ README.md
 ┗ README.md     # Este arquivo
 ```
 
