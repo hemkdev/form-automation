@@ -12,10 +12,11 @@ pyautogui.PAUSE = 0.5
 # Passo 1: Entrar no sistema da empresa -> https://dlp.hashtagtreinamentos.com/python/intensivao/login
 
 # abrir o navegador (chrome)
+
 pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
-pyautogui.press("tab")
+pyautogui.press("tab")    
 pyautogui.press("enter")
 
 # entrar no link 
@@ -45,8 +46,8 @@ import pandas
 
 tabela = pandas.read_csv("../data/produtos.csv")
 
-print(tabela)   
-# Passo 4: Cadastrar um produto
+print(tabela)       
+# Passo 4: Cadastrar um produto 
 for linha in tabela.index: #cada linha da tabela
     pyautogui.click(x=747, y=369)
 
@@ -76,11 +77,11 @@ for linha in tabela.index: #cada linha da tabela
 
     obs = str(tabela.loc[linha, "obs"])
 
-    if obs != "nan": # se tiver alguma observação
+    if pandas.notna(obs): # se tiver alguma observação
         pyautogui.write(obs)
 
     pyautogui.press("tab")
     pyautogui.press("enter")
-    pyautogui.scroll("1000")
+    pyautogui.scroll(1000)
 
 # Passo 5: Repetir o processo de cadastro até o fim

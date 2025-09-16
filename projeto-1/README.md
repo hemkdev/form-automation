@@ -17,5 +17,5 @@ Este projeto automatiza a **leitura de dados em uma tabela** (CSV/Excel) e o **p
  ┃ ┗ produtos.csv
  ┣ 📂 src            # Código-fonte
  ┃ ┗ main.py
- ┣ requirements.txt  # Dependências do projeto
+ ┣ pegar_posicao.py  # Captura localização do cursos
  ┗ README.md         # Documentação
