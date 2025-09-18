@@ -1,21 +1,20 @@
-# 📈 Previsão de Vendas com Python (Pandas e Scikit-learn)
+# 📊 Análise de Cancelamentos com Python (Pandas)
 
-Este projeto aborda a **previsão de vendas** utilizando técnicas de **Machine Learning** com as bibliotecas **[Pandas](https://pandas.pydata.org/)** para manipulação de dados e **[Scikit-learn](https://scikit-learn.org/stable/)** para construção de modelos preditivos.
+Este projeto foca na **análise de dados** utilizando a biblioteca **[Pandas](https://pandas.pydata.org/)** para identificar padrões e insights.
 
 ## ✨ Funcionalidades
 - Leitura de arquivos **CSV** com `pandas`;
-- Pré-processamento e engenharia de features;
-- Treinamento de modelos de Machine Learning para previsão de vendas;
-- Avaliação de modelos e geração de previsões.
+- Limpeza e tratamento de dados de cancelamento;
+- Análise exploratória para identificar causas de cancelamento;
+- Geração de insights a partir dos dados.
 
 ---
 
 ## 📂 Estrutura do Projeto
 ```bash
 📦 seu-repositorio
- ┣ clientes.csv          # Dados históricos de clientes
- ┣ novos_clientes.csv    # Dados de novos clientes para previsão
- ┣ gabarito.ipynb        # Notebook Jupyter com a solução completa
- ┣ inicial.ipynb         # Notebook Jupyter para iniciar o projeto
- ┗ README.md             # Documentação
+ ┣ cancelamentos.csv       # Dados completos de cancelamentos
+ ┣ cancelamentos_sample.csv # Amostra dos dados de cancelamentos
+ ┣ gabarito.ipynb          # Notebook Jupyter com a análise completa
+ ┗ README.md               # Documentação
 ```
