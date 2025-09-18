@@ -76,19 +76,6 @@ Para usar qualquer um dos projetos:
 
 ---
 
-## ▶️ Uso
-
-Cada projeto terá instruções próprias em seu README, mas em geral:
-
-```bash
-cd python-powerup/projeto-X
-# ative o ambiente virtual se ainda não estiver ativo
-python main.py
-```
-
-Ou o arquivo principal que o projeto usa (`main.py` ou outro).
-
----
 
 ## 💡 Boas práticas
 
@@ -96,9 +83,3 @@ Ou o arquivo principal que o projeto usa (`main.py` ou outro).
 - Teste com dados de entrada simples primeiro, para garantir que tudo está funcionando.  
 - Documente as dependências específicas de cada projeto (versão do Python, bibliotecas, etc.).  
 - Mantenha cada projeto isolado: se for possível, evite / minimize efeitos cruzados entre eles.
-
----
-
-## 📜 Licença
-
-Este repositório está sob a licença **MIT**. Sinta-se à vontade para usar, modificar e contribuir.
