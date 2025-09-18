@@ -25,7 +25,7 @@ Aqui estão os projetos inclusos:
 |---------|------------|-------------|
 | **Projeto 1** | *Automação de tarefas (Pyautogui + Pandas)* | `projeto-1/` |
 | **Projeto 2** | *Análise de dados* | `projeto-2/` |
-| **Projeto 3** | *Descreva aqui o que o Projeto 3 faz.* | `projeto-3/` |
+| **Projeto 3** | *Inteligência artificial e previsões* | `projeto-3/` |
 | **Projeto 4** | *Descreva aqui o que o Projeto 4 faz.* | `projeto-4/` |
 
 ---
